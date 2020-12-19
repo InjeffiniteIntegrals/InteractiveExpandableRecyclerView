@@ -161,7 +161,12 @@ public class MainActivity extends AppCompatActivity implements ItemListener {
                 recyclerView.setVisibility(View.VISIBLE);
                 addANewCategory.setVisibility(View.INVISIBLE);
                 Toast.makeText(MainActivity.this, addCategoryItemName.getText().toString() + " added to categories!", Toast.LENGTH_LONG).show();
-                onCreate(new Bundle());
+                //Resets the edit texts so that they're empty next time
+                addCategoryName.setText("");
+                addCategoryItemName.setText("");
+                addCategoryItemPrice.setText("");
+                //Restarts the activity
+                recreate();
             }
         });
     }
@@ -222,7 +227,11 @@ public class MainActivity extends AppCompatActivity implements ItemListener {
                 addCategory.setClickable(true);
                 addItemTo.setVisibility(View.INVISIBLE);
                 Toast.makeText(MainActivity.this, itemTitle.getText().toString() + " has been added to " + categoryTitle + "!", Toast.LENGTH_LONG).show();
-                onCreate(new Bundle());
+                //Resets the edit texts so that they're empty next time
+                itemTitle.setText("");
+                itemAddress.setText("");
+                //Restarts the activity
+                recreate();
         });
 
         cancel.setOnClickListener(v -> {
