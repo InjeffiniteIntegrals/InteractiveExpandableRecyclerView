@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_items_list">
+        <item>Bun,Wheat,$0.35</item>
+        <item>Bun,White,$0.30</item>
+        <item>Bun,Whole Grain,$0.40</item>
+        <item>Bun,Lettuce,$0.25</item>
+        <item>Topping,Lettuce,$0.15</item>
+        <item>Topping,Tomato,$0.20</item>
+        <item>Topping,Onion,$0.20</item>
+        <item>Topping,Pickle,$0.10</item>
+        <item>Topping,Vegan Cheese,$0.60</item>
+        <item>Condiment,Just Mayo,$0.10</item>
+        <item>Condiment,Mustard,$0.05</item>
+        <item>Condiment,Ketchup,$0.05</item>
+        <item>Condiment,Thousand Island,$0.15</item>
+        <item>Patty,Veggie Patty,$2.75</item>
+        <item>Patty,Beyond Burger,$3.25</item>
+    </array>
+</resources>
